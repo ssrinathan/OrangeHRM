@@ -37,6 +37,7 @@ public class TestCase_001_LoginLogout {
 		action.moveToElement(driver.findElementById("account-name")).click().build().perform();
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("logoutLink")));
 		driver.findElementById("logoutLink").click();
+		System.out.println("Logging Out");
 		driver.close();
 	}
 	@DataProvider(name="userRoles")
