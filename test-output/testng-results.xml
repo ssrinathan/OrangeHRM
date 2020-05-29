@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33887" started-at="2020-05-29T11:50:44Z" finished-at="2020-05-29T11:51:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33887" started-at="2020-05-29T11:50:44Z" finished-at="2020-05-29T11:51:18Z">
+      <class name="hrm.TestCase_002_EmployeeDetails">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:hrm.TestCase_002_EmployeeDetails@2d928643]" name="launchBrowser" is-config="true" duration-ms="19327" started-at="2020-05-29T11:50:44Z" finished-at="2020-05-29T11:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="fetchEmployeeDetails()[pri:0, instance:hrm.TestCase_002_EmployeeDetails@2d928643]" name="fetchEmployeeDetails" duration-ms="10294" started-at="2020-05-29T11:51:03Z" finished-at="2020-05-29T11:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchEmployeeDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hrm.TestCase_002_EmployeeDetails@2d928643]" name="closeBrowser" is-config="true" duration-ms="4205" started-at="2020-05-29T11:51:14Z" finished-at="2020-05-29T11:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- hrm.TestCase_002_EmployeeDetails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
